@@ -1,11 +1,12 @@
 body{
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png');
 }
 
 header{
-    background-color: rgb(110, 82, 187);
+    background-color: white;
     overflow: auto;
     width: 100%;
-    border-bottom: 6px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 .headerName{
@@ -16,6 +17,9 @@ header{
     margin-left: 325px;
     margin-bottom: 0;
     float: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .buttons{
@@ -24,8 +28,8 @@ header{
     margin-top: 40px;
 }
 
-a{
-    color: grey;
+a, p{
+    color: #777777;
 }
 
 a:link{
@@ -52,9 +56,12 @@ a:hover{
     overflow: auto;
 }
 .bodyHeader{
-    background-color: yellow;
     border-bottom: 6px solid purple;
     border-radius: 5px;
+    color: #4aaaa5;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .pictureCat{
